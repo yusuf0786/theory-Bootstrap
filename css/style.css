@@ -52,7 +52,11 @@ body{
 }
 
 .content{
-	padding: 100px 20px;
+	padding: 100px 0;
+}
+.content .col{
+	padding-left: 0;
+	padding-right: 18px;
 }
 .content h3{
 	font-weight: 900;
@@ -68,6 +72,7 @@ body{
 .content .add-border{
 	border-left: 1px solid #dfdfdf;
 	border-right: 1px solid #dfdfdf;
+	padding-left: 18px;
 }
 .mybutton{
 	background-color: #0893d4;
@@ -162,13 +167,17 @@ body{
  
     .content{
 		text-align: center;
-		padding: 100px 0px;
+		padding: auto 0;
     }
+	.content .col{
+		padding-left: 18px;
+	}
 	.content .add-border{
 		border: 0;
+		padding-left: 0;
 	}
     .mybutton{
-		padding: 10px 40%;
+		padding: 10px 45%;
 		font-size: 25px;
     }
 	.team .person{
@@ -199,6 +208,13 @@ body{
 		margin-top: 20px;
 	}
 	
+}
+
+@media only screen and (max-width: 610px){
+	
+	.mybutton{
+		padding: 10px 40%;
+    }
 }
 
 
